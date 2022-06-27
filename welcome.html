@@ -22,7 +22,8 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            background: url(pics/main.jpg)no-repeat;
+            /* background: url(pics/main.jpg)no-repeat; */
+            background-color: #c7c7c7;
             background-size: cover;
             background-position: center;
         }
@@ -74,12 +75,29 @@
         .content .info h2 span{
             font-size: 50px;
             font-weight: 500;
-            color: #c7c7c7;
+            color: #0f4d3c;
         }
         .content .info p{
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 40px;
+        }
+        .content a{
+            color: #fff;
+            background-color:#0f4d3c;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: 0.3;
+            transition-property: background;
+            
+        }
+        .content a:hover{
+            background: #fff;
+            color: #000;
         }
     </style>
 
@@ -98,7 +116,7 @@
             <div class="info">
                 <h2>Welcome to Our BookKeeping App<br><span>Made By: HyperText Team</span></h2>
                 <p>it is an app that let the Users to manage their financial stuff!<br> it is easy to use. join us </p>
-                <a href="login.html" class="Login-btn2"></a>
+                <a href="login.html" class="Login-btn2">Login</a>
             </div>
         </div>
    
